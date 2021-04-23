@@ -1,16 +1,17 @@
+
 # Amazon_Vine_Analysis
 
 ## Overview of the Analysis
 
-The following analysis was performed on a dataset of Amazon reviews about wireles products written by members of the paid Amazon Vine program. The Amazon Vine program is a service that allows manufacturers and publishers to receive reviews for their products. We have used PySpark and google colab as our main tools to parse the data. Additionally we have used Amazon Web Services (AWS) to host our online server and pgadmin to hold our database.  The main purpose of this analysis was to determine if there is any bias toward favorable reviews written by the paid Vine members. 
+The following analysis was performed on a dataset of Amazon reviews about wireless products written by members of the paid Amazon Vine program. The Amazon Vine program is a service that allows manufacturers and publishers to receive reviews for their products. We have used PySpark and google collab as our main tools to parse the data. Additionally, we have used Amazon Web Services (AWS) to host our online server and pgadmin to hold our database.  The main purpose of this analysis was to determine if there is any bias toward favorable reviews written by the paid Vine members. 
 
-Amazon wireles reviews: [link to dataset](https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Wireless_v1_00.tsv.gz)
+Amazon wireless reviews: [link to dataset](https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Wireless_v1_00.tsv.gz)
 
-## Resuls
+## Results
 
  **How many Vine reviews and non-Vine reviews were there?**
 
- After tiltering our dataframe and retrieving the results, we have found out that there were:
+ After filtering our data frame and retrieving the results, we have found out that there were:
  * 613 Vine reviews.
  * 64,968 non-Vine reviews.
 
